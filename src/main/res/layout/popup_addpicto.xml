@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="15dip" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrer la signification du pictogramme :" />
+
+    <EditText
+        android:id="@+id/EditText_boite_saisie_syntaxe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Signification ..."
+        android:singleLine="true"
+        android:layout_marginBottom="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajouter ce pictogramme à tous les profils"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_everywhere"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bouton_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.55"
+            android:text="OK" />
+
+        <Button
+            android:id="@+id/bouton_annuler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="Annuler" />
+
+    </LinearLayout>
+
+</LinearLayout>

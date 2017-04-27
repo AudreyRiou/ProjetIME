@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Paramètres"/>
+        <!-- android:icon="@drawable/ic_action_settings" -->
+
+
+    <item
+        android:id="@+id/menu_profils"
+        android:title="Gérer les profils"/>
+        <!-- android:icon="@drawable/ic_action_add_head" -->
+
+
+    <item
+        android:id="@+id/menu_add_picture"
+        android:title="Gérer les pictogrammes"/>
+        <!-- android:icon="@drawable/ic_action_add_picture" -->
+
+
+    <item
+        android:id="@+id/menu_reset"
+        android:title="Réinitialiser les pages"/>
+        <!-- android:icon="@drawable/ic_action_add_delete" -->
+
+</menu>

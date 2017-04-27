@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:id="@+id/activity_moment">
+
+    <include layout="@layout/toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.9">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:background="#bec8ca" >
+
+            <LinearLayout
+                android:id="@+id/verticalScrollViewArea"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#688897"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal">
+            </LinearLayout>
+
+        </ScrollView>
+        <!--
+        <ImageView
+            android:id="@+id/poubelle_timetable"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/poubelle"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="45dp"
+            android:layout_marginRight="45dp"/>-->
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:background="#5d6164"
+        android:id="@+id/horizontalScrollView" >
+
+        <LinearLayout
+            android:id="@+id/horizontalScrollViewArea"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

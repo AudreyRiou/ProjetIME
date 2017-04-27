@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"/>
+
+    <Button
+        style="@style/button_admin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Ajouter un nouveau profil"
+        android:onClick="AddProfil" />
+
+    <Button
+        style="@style/button_admin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Charger un profil"
+        android:onClick="ChangeProfil" />
+
+    <Button
+        style="@style/button_admin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Supprimer un profil"
+        android:onClick="DeleteProfil" />
+
+
+</LinearLayout>

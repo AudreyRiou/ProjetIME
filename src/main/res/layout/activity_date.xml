@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkGrey"
+    android:id="@+id/activity_date"
+    android:weightSum="6">
+
+    <include layout="@layout/toolbar"/>
+    <!--
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04">
+        <!
+        <TextView
+            android:id="@+id/jour_text_view"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="16dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="HEHELLLOOOO"
+            android:gravity="center"
+            android:background="@color/colorRed"/>
+            -->
+
+        <!--
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorBlack"/>
+            -->
+    <!--
+    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:onClick="click_on_day_time"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Lever"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:onClick="click_on_day_time"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Matinée"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:onClick="click_on_day_time"
+            android:gravity="center_vertical"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Midi"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:onClick="click_on_day_time"
+            android:gravity="center_vertical"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Après-midi"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="true"
+            android:padding="16dp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:onClick="click_on_day_time"
+            android:gravity="center_vertical"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Soir"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="true"
+            android:padding="16dp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:onClick="click_on_day_time"
+            android:gravity="center_vertical"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Coucher"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+
+    <TextView
+        android:id="@+id/semaine_actuelle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0711fe"
+        android:text="Semaine actuelle"
+
+        android:gravity="center"
+        android:textSize="60sp"
+        android:padding="40dp"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/lundi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:padding="40dp"
+            android:background="@color/colorRed"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:onClick="dateClick"/>
+
+        <TextView
+            android:id="@+id/mardi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:padding="40dp"
+            android:background="@color/colorYellow"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:onClick="dateClick"/>
+
+        <TextView
+            android:id="@+id/mercredi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:padding="40dp"
+            android:background="@color/colorGreen"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:onClick="dateClick"/>
+
+        <TextView
+            android:id="@+id/jeudi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="J"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:padding="40dp"
+            android:background="@color/colorBlue"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:onClick="dateClick"/>
+
+        <TextView
+            android:id="@+id/vendredi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:padding="40dp"
+            android:background="@color/colorBrown"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:onClick="dateClick"/>
+
+        <TextView
+            android:id="@+id/samedi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:padding="40dp"
+            android:background="@color/colorOrange"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:onClick="dateClick"/>
+
+        <TextView
+            android:id="@+id/dimanche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:padding="40dp"
+            android:background="@color/colorWhite"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:onClick="dateClick"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/semaine_prochaine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0711fe"
+        android:text="Semaine prochaine"
+        android:gravity="center"
+        android:textSize="60sp"
+        android:padding="40dp"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/lundi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:padding="40dp"
+            android:background="@color/colorRed"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:onClick="dateClick"/>
+
+        <TextView
+            android:id="@+id/mardi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:padding="40dp"
+            android:background="@color/colorYellow"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:onClick="dateClick"/>
+
+        <TextView
+            android:id="@+id/mercredi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:padding="40dp"
+            android:background="@color/colorGreen"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:onClick="dateClick"/>
+
+        <TextView
+            android:id="@+id/jeudi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="J"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:padding="40dp"
+            android:background="@color/colorBlue"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:onClick="dateClick"/>
+
+        <TextView
+            android:id="@+id/vendredi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:padding="40dp"
+            android:background="@color/colorBrown"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:onClick="dateClick"/>
+
+        <TextView
+            android:id="@+id/samedi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:padding="40dp"
+            android:background="@color/colorOrange"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:onClick="dateClick"/>
+
+
+        <TextView
+            android:id="@+id/dimanche2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:padding="40dp"
+            android:background="@color/colorWhite"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:onClick="dateClick"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/fleche2"
+        android:scaleType="centerCrop"
+        android:onClick="monthClick" />
+
+</LinearLayout>

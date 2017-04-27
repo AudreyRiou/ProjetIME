@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Mot de passe"
+        android:key="mot_de_passe">
+
+        <CheckBoxPreference
+            android:title="Activer le mot de passe"
+            android:defaultValue="false"
+            android:summary="Activation du mot de passe"
+            android:key="checkbox_mot_de_passe" />
+
+        <Preference
+            android:title="Mot de Passe"
+            android:key="edit_text_mot_de_passe"
+            android:summary="Changer le mot de passe"/>
+
+        <Preference
+            android:title="Mot de Passe"
+            android:key="reset_text_mot_de_passe"
+            android:summary="Rétablir le mot de passe par défaut: 0000"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Son"
+        android:key="son">
+
+        <CheckBoxPreference
+            android:title="Activer le son"
+            android:summary="Cette option va vous permettre d'avoir la synthèse vocale pour les repas et l'emploi du temps. Il faut qu'elle soit déjà installée sur le support mobile.\nSi elle ne l'est pas, connectez-vous à internet et allez dans Paramètres -> Langue et saisie -> Options synthèse vocale -> roue dentée dans 'Moteur TTS favori'->installer les données vocales->Télécharger français"
+            android:key="checkbox_son" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="A propos">
+        <Preference
+            android:title="A propos de l'application"
+            android:key="a_propos"
+            android:summary="A propos de l'application"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
